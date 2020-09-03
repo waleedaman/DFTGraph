@@ -17,7 +17,7 @@
    <widget class="QPushButton" name="openFile">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>400</x>
       <y>30</y>
       <width>89</width>
       <height>25</height>
@@ -30,7 +30,7 @@
    <widget class="QLineEdit" name="filePath">
     <property name="geometry">
      <rect>
-      <x>132</x>
+      <x>10</x>
       <y>30</y>
       <width>391</width>
       <height>25</height>
@@ -40,10 +40,20 @@
    <widget class="QListWidget" name="dataList">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>60</y>
-      <width>256</width>
-      <height>192</height>
+      <x>510</x>
+      <y>30</y>
+      <width>261</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QChartView" name="chart">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>741</width>
+      <height>271</height>
      </rect>
     </property>
    </widget>
@@ -66,6 +76,13 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">QtCharts</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

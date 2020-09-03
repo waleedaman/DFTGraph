@@ -32,7 +32,6 @@ void MainWindow::openFile(){
     }
     ui->dataList->clear();
     ui->dataList->addItems(list);
-
 }
 
 QVector<qint64> MainWindow::readDataFromFile(QString filePath){
