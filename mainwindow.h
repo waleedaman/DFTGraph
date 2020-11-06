@@ -14,7 +14,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    QVector<qint64> readDataFromFile(QString);
+    QVector<double> readDataFromFile(QString);
 public slots:
     void openFile();
 private:

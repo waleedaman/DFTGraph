@@ -47,15 +47,16 @@
      </rect>
     </property>
    </widget>
-   <widget class="QChartView" name="chart">
+   <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>250</y>
-      <width>741</width>
-      <height>271</height>
+      <x>20</x>
+      <y>230</y>
+      <width>771</width>
+      <height>321</height>
      </rect>
     </property>
+    <layout class="QGridLayout" name="qgrid"/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -76,13 +77,6 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>QChartView</class>
-   <extends>QGraphicsView</extends>
-   <header location="global">QtCharts</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>
